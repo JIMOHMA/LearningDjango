@@ -1,0 +1,566 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pro",
+				"product_initial_data"
+			],
+			[
+				"in",
+				"initial_data"
+			],
+			[
+				"Pro",
+				"ProductForm"
+			],
+			[
+				"title",
+				"title"
+			],
+			[
+				"my",
+				"my_new_title"
+			],
+			[
+				"is",
+				"is_valid"
+			],
+			[
+				"product",
+				"product_create"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"about",
+				"about"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"Ploynomial",
+				"PolynomialFeatures"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"margin",
+				"margin-bottom\tproperty"
+			],
+			[
+				"list",
+				"list-style-image\tproperty"
+			],
+			[
+				"add",
+				"addNewObject"
+			],
+			[
+				"arr",
+				"arrayInput"
+			],
+			[
+				"new",
+				"newObj"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/views.py",
+			"settings":
+			{
+				"buffer_size": 1589,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/templates/products/product_create.html",
+			"settings":
+			{
+				"buffer_size": 446,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "from django.db import models\n\n# Create your models here.\n# Want out backend to have a memory of a product created\n# Layers of database with django/python 1. Django/Python Layer This doesn't require migration. \n# 2. Database Layer: This requires migration\nclass Product(models.Model):\n\t# This creates a database using the DDL from 3DB3 rememeber. \n\t# And assigns the column witht he right datatypes\n\ttitle \t\t= models.CharField(max_length=120)\n\tdescription = models.TextField(blank=True, null=True)\n\tprice \t\t= models.DecimalField(decimal_places=2, max_digits=10000)\n\tsummary \t= models.TextField(blank=True, null=True)\n\tfeatured \t= models.BooleanField(default=True )",
+			"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/models.py",
+			"file_size": 533,
+			"file_write_time": 132556126778728550,
+			"settings":
+			{
+				"buffer_size": 663,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/pages/views.py",
+			"settings":
+			{
+				"buffer_size": 560,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/forms.py",
+			"settings":
+			{
+				"buffer_size": 1846,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "urls.py",
+			"settings":
+			{
+				"buffer_size": 1193,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/templates",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/templates/products",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/tryjango"
+	],
+	"file_history":
+	[
+		"/C/Users/mail4/Desktop/YOUTUBE/HASKELL/test.hs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 3FP3/AYODELE/Assignments/A1/A1.hs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 3FP3/AYODELE/Assignments/A1/A1_jimohma_SUBMITTED.hs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/Semester Winter (2018)/2XB3/Group Project/UserInterface.java",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/Semester Winter (2018)/2XB3/Group Project/Load.java",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/templates/products/product_detail.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/models.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/base.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/tryjango/urls.py",
+		"/C/Users/mail4/Desktop/trythis.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/product/detail.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/pages/models.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/views.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/pages/views.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/about.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/home.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/tryjango/settings.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/navbar.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/templates/contact.html",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/manage.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/admin.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/migrations/0001_initial.py",
+		"/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/tryjango/trjango.sublime-project",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/linearAndpolyRegression.py",
+		"/C/Users/mail4/.ipython/profile_default/startup/README",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/Test File.txt",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/dataStatitics.py",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 3GC3/Assignment 1/Line Algorithm/Bresenhams_Algorithm_Code.c",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/dataWrangling.py",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/dataAnalytics.py",
+		"/C/Users/mail4/Desktop/Career/USA ACCIDENT PREDICTION MODEL/USA_Accidents/Link_To_Accident_Data.txt",
+		"/C/Users/mail4/Desktop/Career/TUTORING/patrick.py",
+		"/C/Users/mail4/Desktop/Career/RESUME Collection/DATA SCIENCE/Company Applications/PRODIGY GAMES/fibQuestion.py",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 4F03/jimohma_A4.c",
+		"/C/Users/mail4/Desktop/Career/Random Source Folder For Scripts/FaceRecognition.py",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 3FP3/AYODELE/Assignments/A3/A3_jimohma.hs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 3GC3/Assignment 1/Paint/A1/coordinate_type.h",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 3FP3/AYODELE/Assignments/A2/Assign2.hs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 3GC3/Assignment 1/Paint/A1/Paint.c",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 3FP3/AYODELE/Assignments/template_Assignment.lhs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 3GC3/Assignment 1/Draft One/Assign1_Draft1.c",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 3GC3/Assignment 1/Line Algorithm/Bresenhams_Algorithm_Code.o",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 4F03/Assignment/A5/4f03-2019-jimoh/hw5/jimohma_A5.cu",
+		"/C/Users/mail4/Desktop/Career/IBM Data Science/CAPSTONE PROJECT/Coursera_Capstone/Capstone.ipynb",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Fall 2018/CS 2XA3/FINAL PROJECT/sorthem.asm",
+		"/C/Users/mail4/Downloads/DV0101EN-1-1-1-Introduction-to-Matplotlib-and-Line-Plots-py-v2.0.ipynb",
+		"/C/Users/mail4/Downloads/it-2-1/distribution/css/style.default.css",
+		"/C/Users/mail4/Downloads/it-2-1/distribution/index.html",
+		"/C/Users/mail4/Desktop/Testing/openThis.txt",
+		"/C/Users/mail4/Desktop/Testing/index.html",
+		"/C/Users/mail4/Downloads/it-2-1/distribution/img/logo-big.png",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/HTML and CSS/html/index.html",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/HTML and CSS/html/css/style.css",
+		"/C/Users/mail4/Downloads/csscrashcourse/mywebsite/css/style.css",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/HTML and CSS/mywebsite/index.html",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/HTML and CSS/mywebsite/css/style.css",
+		"/C/Users/mail4/Downloads/csscrashcourse/mywebsite/website.txt",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/HTML and CSS/css/style.css",
+		"/C/Users/mail4/Desktop/ayodele.js",
+		"/C/Users/mail4/Desktop/Career/C# Programs/generalStructure.cs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/PYTHON PROJECTS/Instagram Scrapping/LikeBotIG.py",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/PYTHON PROJECTS/Instagram Scrapping/geckodriver.log",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/PYTHON PROJECTS/Instagram Scrapping/quadratic.py",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/CSS/css/style.css",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week1/CSS/index.html",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week2/server.js",
+		"/C/Users/mail4/Desktop/Career/Bootcamp/Week2/index.html",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/FINAL YEAR/Winter 2019/COMP SCI 4F03/4f03-2019-jimoh/hw5/jimohma_A5.cu",
+		"/C/Users/mail4/Desktop/Career/C# Programs/csTutorial.cs",
+		"/C/Users/mail4/Desktop/BACK UP EXTRAS/PYTHON PROJECTS/Instagram Scrapping/debug.log"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 113.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"my_new_title",
+			"my_new",
+			"RATING",
+			"TEXT",
+			"']])\n",
+			"text-center",
+			"nav-item",
+			"navbarcollapse",
+			"container",
+			".header",
+			"header",
+			"link-scroll",
+			"link-code",
+			"nav-link",
+			"navbar",
+			".navbar-expand-lg",
+			"navbar-expand-lg",
+			"fixed-top",
+			"header",
+			"top",
+			".fixed-top",
+			"fixed-top",
+			"IT WORKER",
+			"dark-mask"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/views.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1589,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								479,
+								498
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/templates/products/product_create.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								446,
+								446
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/models.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 663,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								663,
+								663
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/pages/views.py",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 560,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								380,
+								380
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/C/Users/mail4/Desktop/Career/PYTHON PROJECTS/Django/src/products/forms.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1846,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								91,
+								91
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 378.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "urls.py",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1193,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1193,
+								1193
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "trjango.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
