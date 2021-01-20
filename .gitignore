@@ -15,7 +15,7 @@ downloads/
 eggs/
 .eggs/
 lib/
-Scripts/**
+Django/Project-Env/Scripts/**
 lib64/
 parts/
 sdist/
