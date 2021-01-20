@@ -23,6 +23,8 @@ def product_initial_data(request):
 	}
 	obj = Product.objects.get(id=4)
 	form = ProductForm(request.POST or None, initial=initial_data, instance=obj)
+	# This allows us to not add an initial data into the title field
+	formNoInitialData = ProductForm(request.POST or None, instance=obj)
 	if form.is_valid():
 		form.save()
 	context = {

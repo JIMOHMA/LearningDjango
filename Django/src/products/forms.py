@@ -27,6 +27,9 @@ class ProductForm(forms.ModelForm):
 		model = Product
 		fields = ['title', 'description', 'price']
 
+	# The logic for validating the title here is not working for 
+	# all the edge cases specified.
+	# Needs rework
 	def clean_title(self, *args, **kwargs):
 		title = self.cleaned_data.get('title')
 		print(title)
