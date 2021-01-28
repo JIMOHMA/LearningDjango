@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+	{% for instance in object_list %}
+	<!-- This paragraph below works as it take me to the page for the object. 
+		So it only works for clicking on the item and navigating to object's page. 
+		It doesn't take you the the item's page when you create a new item. 
+		The method below does that for you which is what is ideal.-->
+<!-- 		<p>{{ instance.id}} - <a href="{{ instance.id }}">{{ instance.title }}</a></p> -->
+
+		<!-- This is how I want to really code it to work -->
+		<p>{{ instance.id}} - <a href="{{ instance.get_absolute_url }}">{{ instance.title }}</a></p>
+	{% endfor %}
+{% endblock %}
